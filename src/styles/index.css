@@ -8,6 +8,7 @@
 
 body {
     overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* HEADER */
@@ -21,6 +22,7 @@ header {
     transform-origin: left top;
     transform:rotate(-90deg) translateX(-100%);
     z-index: 20;
+    font-weight: 500;
 }
 
 ul {
