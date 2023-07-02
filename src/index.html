@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Journey</title>
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/locomotive-scroll.css">
 </head>
-<body>
+<body data-scroll-container>
     <!-- HEADER -->
     <header>
         <nav>
@@ -21,19 +22,21 @@
     <!-- MAIN -->
     <main>
         <!-- HOME -->
-        <section id="home">
+        <section data-scroll-section id="home">
 
         </section>
 
         <!-- STATS -->
-        <section id="stats">
+        <section data-scroll-section id="stats">
     
         </section>
     
         <!-- GALLERY -->
-        <section id="gallery">
+        <section data-scroll-section id="gallery">
     
         </section>
     </main>
+
+    <script type="module" src="./index.js"></script>
 </body>
 </html>
