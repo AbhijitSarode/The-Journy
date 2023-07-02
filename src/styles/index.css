@@ -53,3 +53,11 @@ section {
 #gallery {
     background-color: #0A0A0A;
 }
+
+#home {
+    cursor: url(../rocket.png), auto;
+}
+
+#stats {
+    cursor: url(../cursor.png), auto;
+}
